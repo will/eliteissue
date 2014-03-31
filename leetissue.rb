@@ -2,7 +2,7 @@ $stdout.sync = true
 require 'excon'
 require 'sequel'
 
-OWNER = 'roshfu'
+OWNER = 'choxi'
 REPO = 'choxi.github.com'
 PULL_BRANCH = 'm4k3-7h15-31337'
 
