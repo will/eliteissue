@@ -44,7 +44,7 @@ def transform_pull!
 end
 
 def check_db_flag?
-  DB[:flags][key: 'ran']
+  (! DB[:flags][key: 'ran']).tap {|b| puts "check_db_flag?: #{b}"}
 end
 
 def set_db_flag!
