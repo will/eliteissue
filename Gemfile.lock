@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    excon (0.32.1)
+    pg (0.17.1)
+    sequel (4.8.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  excon
+  pg
+  sequel
