@@ -2,8 +2,8 @@ $stdout.sync = true
 require 'excon'
 require 'sequel'
 
-OWNER = 'choxi'
-REPO = 'choxi.github.com'
+OWNER = 'heroku'
+REPO = 'shogun'
 PULL_BRANCH = 'm4k3-7h15-31337'
 
 TARGET_ISSUE = ENV.fetch("TARGET_ISSUE").to_i
